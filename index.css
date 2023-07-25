@@ -1,0 +1,241 @@
+
+* {
+
+  list-style: none;
+  text-decoration: none;
+  
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 20px;
+    /* Font size for tablets */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 22px;
+    /* Font size for desktops */
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 24px;
+    /* Font size for wider screens */
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fadbdb;
+  color: #474747;
+}
+
+header {
+  background-color: #ebc7a8;
+  padding: 20px;
+
+
+}
+#logo{
+  text-align: center;
+}
+
+nav ul {
+  
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+ margin-right: 20px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #474747;
+ text-align: center;
+ margin-right: 11px;
+
+  
+  
+}
+nav ul a:hover{
+  border-bottom: 3px solid rgb(255, 0, 0);
+}
+nav ul a li{
+ color: rgb(24, 10, 10);
+ font-family: 'Kablammo', cursive;
+ font-weight: 550;
+
+
+}
+
+nav ul a img  {
+  margin-right: 5px;
+  fill: #474747;
+  width: 35px;
+  height: 35px;
+  
+  margin-top: 10px;
+}
+.hero_image{
+  background-color: rgb(252, 36, 36);
+  border-left: 7px solid #945353;
+  box-shadow: 3px 3px 5px solid #111111;
+
+  padding: 30px 30px;
+}
+.hero {
+  padding: 30px;
+  background-color: rgb(102, 155, 102);
+  
+  text-align: center;
+  
+
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.6rem;
+  color: #474747;
+}
+
+.hero h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  color: #797979;
+}
+
+.hero h6 {
+  font-size: 1rem;
+  color: #797979;
+}
+
+.web_intro {
+  padding: 1.2rem;
+  background-color: #f8dada;
+}
+
+button {
+  background-color: #1d883da2;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+  margin-left:0.7rem ;
+}
+
+section {
+  
+
+
+  padding: 2.3rem;
+  background-color: #f0c7c7;
+  margin-bottom: 10px;
+}
+section a{
+  color: rgb(5, 104, 30);
+  text-decoration: none;
+}
+section a:hover {
+border-bottom: 0.1rem solid rgb(5, 104, 30) ;
+}
+.double_quotes_img {
+  width: 1.3rem;
+  height: 1.3rem;
+  }
+h2 {
+  font-family: 'Kablammo', cursive;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #dd4e4e;
+  text-align: center;
+  
+}
+p{
+  color: #3d3c3c;
+}
+.lm_button_div{
+
+  text-align: center;
+ margin-bottom: 3rem;
+}
+
+footer {
+
+  background-color: #fa3030;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.social_media {
+  display: flex;
+  justify-content:space-around;
+ 
+}
+
+footer a img{
+  width: 30px;
+  height: 30px;
+  
+}
+
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  /* Styles for tablets and larger screens */
+  .hero {
+    padding: 80px;
+  }
+
+  .hero h1 {
+    font-size: 60px;
+  }
+
+  .hero h3 {
+    font-size: 36px;
+  }
+
+  .hero h6 {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 60px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  footer {
+    padding: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* Styles for larger screens */
+  .web_intro {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  section {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* Styles for extra-large screens */
+  body {
+    background-color: #f2e7d8;
+  }
+}
+
+/* Add more media queries as necessary for different screen sizes */
